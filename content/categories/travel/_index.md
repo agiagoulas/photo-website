@@ -1,5 +1,8 @@
 ---
 title: Travel
-description: Photography taken travelling the world.
-featured: true
+description: Photography taken while travelling, mostly cities.
+featured: false
+menu:
+  main:
+    weight: 10
 ---

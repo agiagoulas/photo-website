@@ -8,3 +8,5 @@ menu:
 ---
 
 Hi, I'm Alex and this is my page about photography.
+
+{{< cloakemail address="alexander@giagoulas.com" display="Write me a mail!">}}
