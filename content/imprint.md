@@ -7,13 +7,10 @@ menu:
     weight: 1
 ---
 
-**Angaben gemäß § 5 TMG**\
 Alexander Giagoulas\
 Zugspitzstr. 12\
 81541 München\
-E-Mail-Adresse: [alexander@giagoulas.com](mailto:alexander@giagoulas.com)
+Mail: {{< cloakemail address="alexander@giagoulas.com">}}
 
-**Inhaltlich Verantwortlicher**\
-Alexander Giagoulas\
-Zugspitzstr. 12\
-81541 München
+Content Responsibility / Inhaltlich Verantwortlicher:
+Alexander Giagoulas
