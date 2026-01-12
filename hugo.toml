@@ -35,7 +35,7 @@ theme = ["gallery","hugo-cloak-email"]
   quality = 85
   resampleFilter = "CatmullRom"
   [imaging.exif]
-    disableDate = true
+    disableDate = false
     disableLatLong = true
     includeFields = "ImageDescription|Orientation"
 
