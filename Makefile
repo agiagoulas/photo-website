@@ -6,8 +6,12 @@ build:
 preview:
 	hugo server
 
-deploy: build
-	rsync -auv ./public/* photo-website:/var/www/giagoulas.com/
+clean-deploy: clean build move
+
+deploy: build move
+
+move:
+	rsync -avh --ignore-errors --progress --omit-dir-times ./public/ photo-website:/var/www/giagoulas.com/ --delete
 	echo "Deployed!"
 
 clean:
@@ -16,4 +20,4 @@ clean:
 	rm -f .hugo_build.lock
 	echo "Cleaned!"
 
-.PHONY: all preview deploy clean build
+.PHONY: all preview deploy clean build move clean-deploy
