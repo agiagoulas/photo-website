@@ -1,5 +1,5 @@
 ---
-date: 2026-01-12
+date: 2025-08-15
 title: Paris
 sort_by: Name
 categories: ["travel", "2025"]
