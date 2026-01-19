@@ -1,5 +1,5 @@
 ---
-date: 2024-09-020
+date: 2024-09-02
 title: Dublin
 sort_by: Name
 categories: ["travel", "2024"]
